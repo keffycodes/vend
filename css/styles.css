@@ -626,14 +626,16 @@ a#get-support:hover {
 }
 
 .section-15-container {
-  position: relative;
+  display: flex;
+  justify-content: space-between;
 }
 
 .section-15-container img {
   width: 40%;
-  position: absolute;
+  max-width: 450px;
+  /* position: absolute;
   right: -10px;
-  top: -20px;
+  top: -20px; */
   border-radius: 50%;
 }
 
@@ -645,6 +647,80 @@ a#get-support:hover {
 .section-15-link {
   text-align: left;
   /* line-height: 3; */
+}
+.section-16 {
+  margin-top: 5rem;
+  background-color: #b8e9b4;
+  padding: 4rem 0 4rem 0;
+}
+.section-16-content-repper {
+  display: flex;
+  justify-content: space-between;
+}
+.section-16-content h2 {
+  text-align: center;
+  padding: 0 15rem 0 15rem;
+  font-size: 3rem;
+  color: #3a4953;
+}
+.section-16-p {
+  margin-top: 1.5rem;
+  font-size: 1.2rem;
+  line-height: 1.6;
+  width: 50%;
+}
+
+.section-16-laptopphone {
+  width: 50%;
+}
+.section-16-laptopphone img {
+  width: 150%;
+  margin-left: -70%;
+}
+.section-17 {
+  margin-top: 0%;
+  padding: 4rem 0 4rem 0;
+}
+.section-17-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.section-17-container img {
+  width: 40%;
+  border-radius: 50%;
+}
+.section-17-content {
+  width: 50%;
+  padding: 0 3rem;
+  font-size: 1.3rem;
+}
+.section-17-content a {
+  display: block;
+  margin-top: 6rem;
+}
+.section-18-images {
+  position: relative;
+}
+.section-18-shoe {
+  width: 20%;
+}
+.section-18-mobile {
+  width: 5%;
+}
+.section-18-laptop {
+  width: 40%;
+}
+.section-18-tab {
+  width: 20%;
+}
+.section-18-images {
+  display: flex;
+  justify-content: center;
+  align-items: baseline;
+  /* width: 100%; */
+  gap: 30px;
+  margin-right: -20%;
 }
 
 @media screen and (max-width: 768px) {
