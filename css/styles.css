@@ -508,7 +508,9 @@ a#get-support:hover {
 
 .section-11-container,
 .section-13-container,
-.section-15-container {
+.section-15-container,
+.section-17-container,
+.section-19-container {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -516,8 +518,11 @@ a#get-support:hover {
 
 .section-11-yellow-brick,
 .section-13-image,
-.section-15-image {
-    width: 80%;
+.section-15-image,
+.section-17-image,
+.section-19-right-image {
+    width: 100%;
+    text-align: center;
     border-radius: 50%;
 }
 
@@ -528,7 +533,9 @@ a#get-support:hover {
 
 .section-11-p,
 .section-13-p,
-.section-15-p {
+.section-15-p,
+.section-17-content p,
+.section-19-content p {
     /* padding: 2rem; */
     font-size: 1.2rem;
     color: #283136;
@@ -537,7 +544,9 @@ a#get-support:hover {
 
 .section-11-link,
 .section-13-link,
-.section-15-link {
+.section-15-link,
+.section-17-link,
+.section-19-second-link {
     display: block;
     text-align: left;
 }
@@ -720,7 +729,8 @@ a#get-support:hover {
 
 .section-16-content h2 {
     text-align: center;
-    padding: 0 15rem 0 15rem;
+    max-width: 800px;
+    margin: auto;
     font-size: 3rem;
     color: #3a4953;
 }
@@ -746,7 +756,8 @@ a#get-support:hover {
     padding: 4rem 0 4rem 0;
 }
 
-.section-17-container {
+
+/* .section-17-container {
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -766,7 +777,7 @@ a#get-support:hover {
 .section-17-content a {
     display: block;
     margin-top: 6rem;
-}
+} */
 
 .section-18-images {
     position: relative;
@@ -792,7 +803,7 @@ a#get-support:hover {
     display: flex;
     justify-content: center;
     align-items: baseline;
-    /* width: 100%; */
+    width: 100%;
     gap: 25px;
     margin-right: -20%;
 }
@@ -805,18 +816,20 @@ a#get-support:hover {
 
 .section-18-content-write-up h2 {
     color: #3b4a54;
-    /* width: 100%; */
-    padding: 0 20%;
-    font-size: 3rem;
     text-align: center;
+    max-width: 800px;
+    margin: auto;
+    font-size: 3rem;
 }
 
 .section-18-content-write-up p {
     width: 100%;
-    padding: 2% 20%;
+    max-width: 800px;
+    margin: auto;
     font-size: 1.3rem;
     text-align: center;
     line-height: 1.5;
+    margin-top: 30px;
 }
 
 .section-18-link {
@@ -827,6 +840,8 @@ a#get-support:hover {
     margin-top: 120px;
 }
 
+
+/* 
 .section-19-container {
     position: relative;
     padding: 4rem 0;
@@ -843,23 +858,23 @@ a#get-support:hover {
 .section-19-content {
     padding: 0 3rem 0 0;
     overflow: hidden;
-    /* max-width: 100%; */
+    
 }
 
 .section-19-content p {
     width: 55%;
     font-size: 1.8rem;
-}
+} */
 
 .number-six-logo {
     width: 15%;
     margin-top: 40px;
 }
 
-.section-19-second-link {
-    /* padding: 10%; */
+
+/* .section-19-second-link {
     text-align: left;
-}
+} */
 
 .section-20 {
     background-color: #b8e9b4;

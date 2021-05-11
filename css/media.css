@@ -162,18 +162,24 @@
     }
     .section-11-container,
     .section-13-container,
-    .section-15-container {
+    .section-15-container,
+    .section-17-container,
+    .section-19-container {
         flex-direction: column-reverse;
     }
     .section-11-yellow-brick,
     .section-13-container img,
-    .section-15-image {
+    .section-15-image,
+    .section-17-image,
+    .section-19-right-image {
         width: 90%;
         border-radius: 0;
     }
     .section-11-p,
     .section-13-p,
-    .section-15-p {
+    .section-15-p,
+    .section-17-content p,
+    .section-19-content-p {
         text-align: center;
         margin-top: 30px;
         margin-bottom: 10px;
@@ -210,6 +216,76 @@
         z-index: -1;
         opacity: 0.5;
     }
+    .section-16-content h2 {
+        font-size: 2rem;
+    }
+    .section-16-content-repper {
+        flex-direction: column-reverse;
+        margin-top: 20px;
+    }
+    .section-16-p {
+        margin: auto;
+        text-align: center;
+        max-width: 700px;
+        width: 100%;
+    }
+    .bg-svg {
+        z-index: -1;
+    }
+    .section-16-laptopphone img {
+        width: 70%;
+        margin-left: 0;
+    }
+    .section-16-laptopphone {
+        width: 100%;
+        text-align: center;
+        margin: 1rem auto;
+    }
+    .section-18-images {
+        position: relative;
+        margin-left: 10%;
+        height: 200px;
+    }
+    .section-18-content-write-up {
+        padding: 0;
+        width: 100%;
+    }
+    .section-18-content-write-up h2 {
+        padding: 0;
+        font-size: 2rem;
+        margin-top: 2rem;
+    }
+    .section-18-content-write-up p {
+        width: 100%;
+        padding: 0;
+        font-size: 1.2rem;
+    }
+    .section-18-shoe {
+        width: 30%;
+        position: absolute;
+        bottom: 0;
+        z-index: 2;
+        right: 30%;
+    }
+    .section-18-mobile {
+        width: 10%;
+        position: absolute;
+        bottom: 0;
+        left: 30%;
+        z-index: 4;
+    }
+    .section-18-tab {
+        width: 35%;
+        position: absolute;
+        bottom: 0;
+        z-index: 1;
+    }
+    .section-18-laptop {
+        width: 60%;
+        position: absolute;
+        bottom: 0;
+        right: 30%;
+    }
 }
 
 @media screen and (max-width: 747px) {
@@ -233,6 +309,15 @@
     .section-12 {
         max-height: fit-content;
         overflow: auto;
+    }
+}
+
+@media screen and (max-width: 467px) {
+    .section-16-content h2 {
+        font-size: 1.5rem;
+    }
+    .section-18-content-write-up h2 {
+        font-size: 1.6rem;
     }
 }
 
