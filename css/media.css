@@ -2,6 +2,11 @@
     .contact {
         position: fixed;
         bottom: 0;
+        background: #ffb3b3;
+        bottom: 0;
+        width: 100%;
+        padding: 1rem;
+        z-index: 1000;
     }
     .other-link-section {
         display: none;
@@ -104,6 +109,10 @@
         margin-top: 80px;
         padding: 2rem;
     }
+    .section-27-green-div,
+    .section-27-blue-div {
+        width: 45%;
+    }
 }
 
 @media screen and (max-width: 900px) {
@@ -112,6 +121,12 @@
     }
     .section-10-content {
         margin-top: 60px;
+    }
+    .section-28-content {
+        flex-wrap: wrap;
+    }
+    .sub-footer-nav {
+        width: 40%;
     }
 }
 
@@ -286,11 +301,132 @@
         bottom: 0;
         right: 30%;
     }
+    .section-20-content {
+        flex-direction: column;
+    }
+    .section-20-content-write-up {
+        width: 100%;
+        padding: 2rem;
+    }
+    .section-20-content-write-up h2 {
+        font-size: 1.5rem;
+    }
+    .section-20-content-write-up p {
+        font-size: 1.3rem;
+    }
+    .book-a-consultation {
+        max-width: unset;
+        width: 100%;
+    }
+    .section-21-link {
+        width: 43%;
+    }
+    .ratings-wrapper {
+        width: 45%;
+    }
+    .section-22 {
+        overflow: hidden;
+    }
+    .section-22-content-write-up {
+        flex-direction: column-reverse;
+        text-align: center;
+    }
+    .section-22-image {
+        width: 100%;
+    }
+    .section-22-p {
+        width: 100%;
+        padding: 0;
+    }
+    .section-22-image img {
+        width: 80%;
+        margin-left: -20%;
+    }
+    .section-23-container {
+        flex-direction: column-reverse;
+    }
+    .section-23-content {
+        width: 100%;
+        text-align: center;
+        margin: 1rem;
+        padding: 2rem;
+    }
+    .section-23-content p {
+        padding-right: 0;
+    }
+    .section-25-div {
+        width: 80%;
+        text-align: center;
+    }
+    .founder-name {
+        top: unset;
+        position: absolute;
+        right: 30%;
+        width: 200px;
+        bottom: 25%;
+        color: #fff;
+    }
+    .section-27-content-div {
+        flex-direction: column;
+    }
+    .section-27-green-div,
+    .section-27-blue-div {
+        width: 100%;
+        margin-bottom: 1rem;
+    }
+}
+
+@media screen and (max-width: 643px) {
+    .section-21-link {
+        width: 70%;
+        margin: auto;
+        flex-direction: column;
+        text-align: center;
+    }
+    .section-24-content h2 {
+        font-size: 1.6rem;
+    }
+    .section-24-content {
+        padding: 1rem;
+    }
 }
 
 @media screen and (max-width: 747px) {
     .menu {
         display: none;
+    }
+    .section-24 {
+        height: 500px;
+        width: 100%;
+    }
+    .section-26-content-write-up {
+        max-width: 100%;
+    }
+    .section-26-image {
+        display: none;
+    }
+    .section-26-bg {
+        display: none;
+    }
+}
+
+@media screen and (max-width: 498) {
+    .sub-footer-nav {
+        width: 100%;
+    }
+}
+
+@media screen and (max-width: 474px) {
+    .ratings-wrapper {
+        width: 100%;
+        text-align: center;
+        margin-top: 1rem;
+    }
+    .section-22 {
+        max-height: unset;
+    }
+    .section-22-content h2 {
+        font-size: 1.5rem;
     }
 }
 
